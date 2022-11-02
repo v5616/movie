@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(18, 18, 36);
+    overflow-x: hidden;
+}
+.header{
+height: 600px;
+width: 100%;
+/* border: 2px solid red; */
+
+}
+.img{
+    height: 700px;
+    width: 100%;
+   
+    /* background-image: url("https://image.tmdb.org/t/p/w1280/gG9fTyDL03fiKnOpf2tr01sncnt.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* border: 2px solid red;  */
+    opacity: .6;
+    z-index: -1;
+}
+.container1{
+    position: absolute;
+    top: 10px;
+    /* border: 2px solid yellow; */
+    height: 100px;
+width: 100%;
+
+
+}
+.raecto {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin-top: 60px !important; */
+    justify-content: space-between !important;
+    margin-top: 60px;
+}
+h1{
+    color: aliceblue;
+}
+input{
+ 
+    border: 2px solid white;
+}
+.all{
+    position: relative;
+    color: white;
+    top: 8px;
+    left: 30px;
+}

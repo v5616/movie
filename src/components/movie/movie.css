@@ -1,0 +1,29 @@
+.first{
+    height: 390px;
+    width: 235px;
+    opacity: 1;
+    z-index: 2;
+    border-radius: 20px;
+    /* border: 2px solid yellow; */
+    margin: 0px 12px ;
+    cursor: pointer;
+    overflow: hidden;
+}
+.first>img{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    z-index: 12;
+   
+}
+
+
+.first>img:hover{
+    height: 320px;
+  width: 110%;
+    overflow: hidden;
+    transition: 1s ease;
+ 
+}
